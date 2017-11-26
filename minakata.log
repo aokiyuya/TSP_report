@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.4.25)  26 NOV 2017 19:53
+This is e-pTeX, Version 3.14159265-p3.6-141210-2.6 (utf8.euc) (TeX Live 2015) (preloaded format=platex 2016.4.25)  26 NOV 2017 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -140,28 +140,25 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 25.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 25.
+File: CM225.eps Graphic file (type eps)
+ <CM225.eps> [1
 
-
-! LaTeX Error: Cannot determine size of graphic in CM225.png (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.68     \includegraphics[width=1cm]{CM225.png}
-                                               
-? 
-File: CM225.png Graphic file (type eps)
-<CM225.png> [1
-
-] [2] (./minakata.aux) ) 
+]
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 78.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 78.
+File: SA13.eps Graphic file (type eps)
+ <SA13.eps>
+File: SA225.eps Graphic file (type eps)
+ <SA225.eps> [2] [3] (./minakata.aux) ) 
 Here is how much of TeX's memory you used:
- 801 strings out of 493717
- 9208 string characters out of 6150720
- 68451 words of memory out of 5000000
- 4394 multiletter control sequences out of 15000+600000
- 13693 words of font info for 61 fonts, out of 8000000 for 9000
+ 806 strings out of 493717
+ 9250 string characters out of 6150720
+ 69470 words of memory out of 5000000
+ 4396 multiletter control sequences out of 15000+600000
+ 14142 words of font info for 64 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 25i,7n,20p,1679b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,7n,21p,206b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on minakata.dvi (2 pages, 3256 bytes).
+Output written on minakata.dvi (3 pages, 4324 bytes).

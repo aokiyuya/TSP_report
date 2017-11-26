@@ -1,6 +1,6 @@
 % Author:Yuya Aoki
 \documentclass{jsarticle}
-\usepackage{graphicx}
+\usepackage[dvips]{graphicx}
 \usepackage{booktabs}
 \title{巡回セールスマン問題}
 \author{1776002 青木裕哉}
@@ -10,7 +10,7 @@
 \maketitle
 
 \section{課題1 全探索}
-\begin{table}
+\begin{table}[htb]
   \centering
 	\begin{tabular}[p]{ccc}
 		\toprule
@@ -27,7 +27,7 @@
 
 
 \section{課題2 改善法}
-\begin{table}
+\begin{table}[htb]
   \centering
 	\begin{tabular}[p]{ccc}
 		\toprule
@@ -60,17 +60,36 @@ $O(100000 + 2 \times n^2)$
 計算量は必ず
 $O(n \times (n - 1) )$
 となるが，局所解に陥り安く，精度は損なわれる．
-具体的には以下の図の通りである．
+具体的には図 1 の通りである．
 
 
-\begin{figure}[htb]
+\begin{figure}[ptb]
   \centering
-    \includegraphics[width=1cm]{CM225.png}
+    \includegraphics[width=100mm]{CM225.eps}
 	\caption{構築法による225都市の巡回セールスマン問題の解答}
 \end{figure}
 
 \section{課題4 アニーリング法}
+今回のプログラムでは，温度パラメータは0.5に設定した
+ただし，同様の温度パラメータの設定では，
+225都市では厳密解にたどりつかないことが確認された．
+アニーリング法によって算出した解の図を図 2 ， 図 3 にしめす．
+なお，図を生成する際のコードは
+\verb#https://github.com/aokiyuya/TSP_report/#
+に公開した．
 
+\begin{figure}[ptb]
+  \centering
+    \includegraphics[width=100mm]{SA13.eps}
+	\caption{アニーリング法による13都市の巡回セールスマン問題の解答}
+\end{figure}
+
+
+\begin{figure}[ptb]
+  \centering
+    \includegraphics[width=100mm]{SA225.eps}
+	\caption{アニーリング法による225都市の巡回セールスマン問題の解答}
+\end{figure}
 
 
 \end{document}

@@ -14,7 +14,7 @@
 #define FINISH_COUNT 100000
 
 // temperature for annealing
-#define T 0.3
+#define T 0.5
 // order for annealing
 #define MAX_LOOP 10000000
 
@@ -131,6 +131,7 @@ void simulated_annealing(int size, double x[size], double y[size], int nroute[si
 			improved = false;
 		}
 	}
+	copy_route(best_route, nroute, size);
 	printf("計算回数%d\n", count);
 	printf("Total Distance\n");
 	printf("%lf\n", total_distance(size, best_route, x, y));

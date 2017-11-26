@@ -20,9 +20,9 @@ CM: main.cpp 10.dat 11.dat 12.dat 13.dat  225.dat
 	ls | grep -e '1..dat' -e '5.dat' | xargs -I@ ./main.out @ CM
 	rm *.out
 
-comb: combination.c 10.dat 11.dat 12.dat 13.dat  225.dat
+comb: combination.c 10.dat 11.dat 12.dat 13.dat
 	gcc combination.c -o main.out
-	ls | grep -e '1..dat' -e '5.dat' | xargs -I@ ./main.out @
+	ls | grep -e '^5.dat' -e '1..dat' | xargs -I@ ./main.out @
 	rm *.out
 
 clean:
